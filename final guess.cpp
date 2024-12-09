@@ -24,7 +24,7 @@ int main()
             cout << "The "<<guess<<" is low!\n\n";
         }
         else{
-            cout << "\nCongratulations!! Your guess is right "<<guess <<"in "<< chances << " guesses!\n";
+            cout << "\nCongratulations!! Your guess is right "<<guess <<" in "<< chances << " guesses!\n";
         }
     } 
         while (guess != randomNumber);
